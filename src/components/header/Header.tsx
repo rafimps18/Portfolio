@@ -3,7 +3,7 @@ import "./Header.css";
 const Header = () => {
     return (
         <header className="header">
-            <div className="logo">
+            <div className="logo-and-name">
                 <img src="src/components/assets/logo.png" alt="logo" />
                 <a className="name" href="#">Rafael Impas</a>
             </div>
@@ -15,7 +15,7 @@ const Header = () => {
                 </ul>
             </nav>
         </header>
-    )
-}
+    );
+};
 
 export default Header;
