@@ -21,26 +21,3 @@ body {
 .bold {
   font-weight: bold;
 }
-
-nav {
-  width: 100vw;
-  font-family: Lato, sans-serif;
-  background-color: rgb(0, 0, 0);
-  overflow: hidden;
-}
-
-nav a {
-  float: left;
-  display: block;
-  color: white;
-  font-size: 30px;
-  text-align: center;
-  text-decoration: none;
-  font-family: Lato, sans serif;
-  padding: 5px;
-  margin: 5px;
-}
-
-.navbarRight {
-  float: right;
-}

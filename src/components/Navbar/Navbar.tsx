@@ -4,6 +4,10 @@ const Navbar = () => {
     return (
         <div className="header">
             <nav className="navbar">
+
+                <img
+                    className="navbar-logo" src="src\components\assets\logo.png" alt="logo" />
+
                 <a href="#">Rafael Impas</a>
                 <div className="navbarRight">
                     <a href="#myProjects">My Projects</a>
