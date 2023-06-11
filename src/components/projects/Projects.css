@@ -1,25 +1,25 @@
 .projects-container-main {
-    width: 100vw;
-    min-height: 100vh;
-    background-color:#0e1116;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #0e1116;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
-    text-align: center;
-    margin-bottom: 60px;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 .projects-header {
-    background-color: inherit;
-    color: whitesmoke;
+  background-color: inherit;
+  color: whitesmoke;
 }
 
-.projects-catalog {
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: inherit;
+#projects-catalog {
+  display: flex;
+  flex-direction: row;
+  background-color: inherit;
 }

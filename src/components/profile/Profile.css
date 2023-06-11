@@ -1,5 +1,5 @@
 .profile-container {
-  background-color: #252525;
+  background-image: linear-gradient(45deg, rgb(0, 0, 0), rgb(150, 150, 150));
   color: whitesmoke;
   width: 100vw;
   height: 85vh;
@@ -8,7 +8,7 @@
 }
 
 .profile-card {
-  background-color: inherit;
+  background-color: #0e1116;
   display: flex;
   width: 50%;
   height: fit-content;
@@ -16,6 +16,15 @@
   top: 30%;
   left: 30%;
   margin: -50px 0 0 -50px;
+  padding: 30px 10px;
+  border-radius: 10px;
+  border: rgb(199, 199, 199) 1px solid;
+  transition: all 0.2s ease 0s;
+}
+
+.profile-card:hover {
+  scale: 1.015;
+  border: rgb(255, 255, 255) 1px solid;
 }
 
 .profile-left-text {
@@ -29,7 +38,6 @@ h1, h2 {
 h1 {
     margin-bottom: 15px;
 }
-
 
 .profile-left {
   background-color: inherit;
