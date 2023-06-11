@@ -1,0 +1,54 @@
+.profile-container {
+  background-color: #252525;
+  color: whitesmoke;
+  width: 100vw;
+  height: 85vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.profile-card {
+  background-color: inherit;
+  display: flex;
+  width: 50%;
+  height: fit-content;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  margin: -50px 0 0 -50px;
+}
+
+.profile-left-text {
+  background-color: inherit;
+}
+
+h1, h2 {
+    background-color: inherit;   
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+.profile-left {
+  background-color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+}
+
+.profile-right {
+  background-color: inherit;
+  width: 50%;
+}
+
+.profile-pic {
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
