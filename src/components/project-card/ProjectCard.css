@@ -1,45 +1,50 @@
 .project-card-main {
-    background-color: black;
-    margin: 20px 30px;
+  background-color: #0e1116;
+  margin: 20px 30px;
+  transition: all 0.2s ease 0s;
 }
 
 .project-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: whitesmoke;
-    border: 2px grey solid;
-    border-radius: 15px;
-    height: 400px;
-    width: 350px;
-    padding: 20px 10px;
-    transition: all 0.1s ease 0s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  border: 2px grey solid;
+  border-radius: 15px;
+  height: 400px;
+  width: 350px;
+  padding: 20px 10px;
+  transition: all 0.1s ease 0s;
+}
+
+.project-card-main:hover {
+  scale: 1.05;
 }
 
 .project-card:hover{
-    border: 3px rgb(44, 153, 255) solid;
+    border: rgb(44, 153, 255) 2px solid;
 }
 
 .project-image {
-    height: fit-content;
+  height: fit-content;
 }
 
 .project-image img {
-    width: 330px;
-    height: 170px;
+  width: 330px;
+  height: 170px;
 }
 
-img:hover {
-    border: rgb(44, 153, 255) 1px solid;
+.project-image img:hover {
+  border: rgb(44, 153, 255) 1px solid;
 }
 
-h2 { 
-    text-align: center;
-    margin: 10px 0;
+h2 {
+  text-align: center;
+  margin: 10px 0;
 }
 
 p {
-    text-align: justify;
-    margin: 0 20px;
+  text-align: justify;
+  margin: 0 20px;
 }
