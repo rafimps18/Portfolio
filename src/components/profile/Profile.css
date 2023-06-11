@@ -30,6 +30,7 @@ h1 {
     margin-bottom: 15px;
 }
 
+
 .profile-left {
   background-color: inherit;
   display: flex;
@@ -37,12 +38,12 @@ h1 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 50%;
+  width: 25vw;
 }
 
 .profile-right {
   background-color: inherit;
-  width: 50%;
+  width: 25vw;
 }
 
 .profile-pic {

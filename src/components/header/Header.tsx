@@ -9,7 +9,7 @@ const Header = () => {
             </div>
             <nav className="nav-container">
                 <ul>
-                    <li><a href="#">My Projects</a></li>
+                    <li><a href="#my_projects">My Projects</a></li>
                     <li><a href="#">Contact Me</a></li>
                     <li><a href="https://github.com/rafimps18">My Github</a></li>
                 </ul>
