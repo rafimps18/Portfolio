@@ -11,19 +11,19 @@ const Projects = () => {
             <div className="projects-catalog" id="projects-catalog">
 
                 <ProjectCard
-                    imgsrc=".\src\components\assets\SW-PIMS.png"
+                    imgsrc="src\assets\SW-PIMS.png"
                     projectName="Product Inventory Management System for a Shoe store"
                     projectDetails="A product inventory management that has basic CRUD functions and a Database"
                 />
 
                 <ProjectCard
-                    imgsrc=".\src\components\assets\SW-PIMS.png"
+                    imgsrc="src\assets\SW-PIMS.png"
                     projectName="Product Inventory Management System for a Shoe store"
                     projectDetails="A product inventory management that has basic CRUD functions and a Database"
                 />
 
                 <ProjectCard
-                    imgsrc=".\src\components\assets\SW-PIMS.png"
+                    imgsrc="src\assets\SW-PIMS.png"
                     projectName="Product Inventory Management System for a Shoe store"
                     projectDetails="A product inventory management that has basic CRUD functions and a Database"
                 />
