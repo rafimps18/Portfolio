@@ -9,6 +9,7 @@ const Profile = () => {
                         <div className="profile-left-text">
                             <h1 className="my-name">Rafael Impas</h1>
                             <h2 className="my-role">Front-end Developer</h2>
+                            <p className="my-bio">Hi! I'm a 3rd year Computer Science student studying web and android app development. This is my portfolio that I used to practice React JS with Typescript.</p>
                         </div>
                     </div>
                     <div className="profile-right">

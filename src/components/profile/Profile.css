@@ -45,6 +45,11 @@
   margin: auto;
 }
 
+.my-bio {
+  margin: 10px 0px;
+  font-size: 20px;
+}
+
 .profile-left {
   background-color: inherit;
   display: flex;
@@ -63,6 +68,7 @@
 
 .profile-pic {
   border-radius: 20px;
+  border:  white 1px solid;
   display: block;
   margin-left: auto;
   margin-right: auto;
