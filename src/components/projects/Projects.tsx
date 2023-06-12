@@ -15,19 +15,6 @@ const Projects = () => {
                     projectName="Product Inventory Management System for a Shoe store"
                     projectDetails="A product inventory management that has basic CRUD functions and a Database"
                 />
-
-                <ProjectCard
-                    imgsrc={projectSnapshot}
-                    projectName="Product Inventory Management System for a Shoe store"
-                    projectDetails="A product inventory management that has basic CRUD functions and a Database"
-                />
-
-                <ProjectCard
-                    imgsrc={projectSnapshot}
-                    projectName="Product Inventory Management System for a Shoe store"
-                    projectDetails="A product inventory management that has basic CRUD functions and a Database"
-                />
-
             </div>
         </div>
     );
