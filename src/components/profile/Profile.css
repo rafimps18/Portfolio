@@ -5,11 +5,13 @@
   height: 85vh;
   position: relative;
   overflow-x: hidden;
+  display: flex;
 }
 
 .profile-card {
   background-color: #0e1116;
   display: flex;
+  flex-direction: row;
   width: 50%;
   height: fit-content;
   position: absolute;
@@ -25,39 +27,61 @@
 .profile-card:hover {
   scale: 1.015;
   border: rgb(255, 255, 255) 1px solid;
+  filter: drop-shadow(0 0 0.7em #414af1aa);
 }
 
 .profile-left-text {
   background-color: inherit;
+  margin: 20px;
 }
 
-h1, h2 {
-    background-color: inherit;   
+.my-name {
+  background-color: inherit;
+  margin: auto;
 }
 
-h1 {
-    margin-bottom: 15px;
+.my-role {
+  background-color: inherit;
+  margin: auto;
 }
 
 .profile-left {
   background-color: inherit;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   text-align: center;
-  width: 25vw;
+  width: 50%;
+  order: 1;
 }
 
 .profile-right {
   background-color: inherit;
-  width: 25vw;
+  width: 50%;
+  order: 2;
 }
 
 .profile-pic {
-  border-radius: 100%;
+  border-radius: 20px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
+}
+
+@media screen and (max-width: 1000px){
+  .profile-card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profile-left {
+    width: 40vw;
+    order: 2;
+  }
+
+  .profile-right {
+    order: 1;
+  }
 }

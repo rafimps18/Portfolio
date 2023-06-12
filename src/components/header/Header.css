@@ -23,6 +23,7 @@ a:hover {
 
 .logo-and-name {
   display: flex;
+  flex-direction: row;
   align-items: center;
   margin-left: 10%;
   background-color: inherit;
@@ -53,4 +54,14 @@ a:hover {
 .nav-container ul li a {
   padding: 0 10px;
   line-height: 60px;
+}
+
+@media screen and (max-width: 1000px) {
+  .header {
+    padding: 20px 0px;
+  }
+  
+  .logo-and-name {
+    flex-direction: column;
+  }
 }

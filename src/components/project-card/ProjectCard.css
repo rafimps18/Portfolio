@@ -1,7 +1,11 @@
 .project-card-main {
-  background-color: #0e1116;
-  margin: 20px 30px;
+  background-color: transparent;
+  margin: 30px 40px;
   transition: all 0.2s ease 0s;
+}
+
+.project-card-main:hover {
+  filter: drop-shadow(0 0 0.7em #646cffaa);
 }
 
 .project-card {
@@ -48,3 +52,4 @@ p {
   text-align: justify;
   margin: 0 20px;
 }
+

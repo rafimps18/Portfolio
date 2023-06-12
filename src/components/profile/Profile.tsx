@@ -7,8 +7,8 @@ const Profile = () => {
                 <div className="profile-card">
                     <div className="profile-left">
                         <div className="profile-left-text">
-                            <h1>Rafael Impas</h1>
-                            <h2>Front-end Developer</h2>
+                            <h1 className="my-name">Rafael Impas</h1>
+                            <h2 className="my-role">Front-end Developer</h2>
                         </div>
                     </div>
                     <div className="profile-right">

@@ -21,5 +21,13 @@ h1 {
 #projects-catalog {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
   background-color: inherit;
+}
+
+@media screen and (max-width: 1000px) {
+  #projects-catalog {
+    flex-direction: column;
+  }
 }
