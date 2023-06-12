@@ -1,3 +1,4 @@
+import profilePic from "/src/assets/pic.jpg";
 import "./Profile.css";
 
 const Profile = () => {
@@ -13,7 +14,7 @@ const Profile = () => {
                         </div>
                     </div>
                     <div className="profile-right">
-                        <img className="profile-pic" src="src/assets/pic.jpg"></img>
+                        <img className="profile-pic" src={profilePic}></img>
                     </div>
                 </div>
             </div>

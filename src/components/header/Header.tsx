@@ -1,10 +1,11 @@
+import myLogo from "/src/assets/logo.png";
 import "./Header.css";
 
 const Header = () => {
     return (
         <header className="header">
             <div className="logo-and-name">
-                <img src="src/assets/logo.png" alt="logo" />
+                <img src={myLogo} alt="logo" />
                 <a className="name" href="#">Rafael Impas</a>
             </div>
             <nav className="nav-container">
