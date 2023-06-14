@@ -14,11 +14,13 @@ const Projects = () => {
                 <ProjectCard
                     imgsrc={projectPIMS}
                     projectName="Product Inventory Management System for a Shoe store"
+                    githubLink="https://github.com/rafimps18/ShoeWare-PIMS"
                     projectDetails="A product inventory management that has basic CRUD functions and a Database"
                 />
 
                 <ProjectCard
                     imgsrc={projectTodo}
+                    githubLink="https://github.com/rafimps18/todolist"
                     projectName="To do app"
                     projectDetails="A simple to do app that persists data with the help of local storage. Still a Work in progress."
                 />

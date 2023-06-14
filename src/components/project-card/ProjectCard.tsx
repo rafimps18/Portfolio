@@ -4,15 +4,16 @@ type ProjectCardProps = {
     imgsrc: string;
     projectName: string;
     projectDetails: string;
+    githubLink: string;
 }
 
-const ProjectCard = ({ imgsrc, projectName, projectDetails }: ProjectCardProps) => {
+const ProjectCard = ({ imgsrc, projectName, projectDetails, githubLink }: ProjectCardProps) => {
     return (
         <>
         <div className="project-card-main">
             <div className="project-card">
                 <div className="project-image">
-                    <a href='https://github.com/rafimps18/ShoeWare-PIMS'>
+                    <a href={githubLink}>
                         <img src={imgsrc}/>
                     </a>
                 </div>
