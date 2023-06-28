@@ -21,12 +21,8 @@
   transition: all 0.1s ease 0s;
 }
 
-.project-card-main:hover {
-  scale: 1.05;
-}
-
 .project-card:hover{
-    border: rgb(44, 153, 255) 2px solid;
+    border: rgb(41, 96, 148) 2px solid;
 }
 
 .project-image {
@@ -39,7 +35,7 @@
 }
 
 .project-image img:hover {
-  border: rgb(44, 153, 255) 1px solid;
+  border: rgb(44, 153, 255) 0.5px solid;
 }
 
 h2 {

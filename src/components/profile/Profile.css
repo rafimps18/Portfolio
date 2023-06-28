@@ -21,13 +21,12 @@
   padding: 30px 10px;
   border-radius: 10px;
   border: rgb(199, 199, 199) 1px solid;
-  transition: all 0.1s ease 0s;
+  transition: all 0.25s ease 0s;
 }
 
 .profile-card:hover {
-  scale: 1.015;
   border: rgb(255, 255, 255) 1px solid;
-  filter: drop-shadow(0 0 0.7em #414af1aa);
+  filter: drop-shadow(0 0 0.7em #ffe600aa);
 }
 
 .profile-left-text {
