@@ -1,0 +1,68 @@
+  .skills-container {
+    background-image: linear-gradient(45deg, rgb(0, 0, 0), rgb(150, 150, 150));
+    color: whitesmoke;
+    width: 100vw;
+    height: 125vh;
+    position: relative;
+    overflow-x: hidden;
+    display: flex;
+  }
+  
+  .skills-card {
+    background-color: #0e1116;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: fit-content;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    margin: -50px 0 0 -50px;
+    padding: 30px 10px;
+    border-radius: 10px;
+    border: rgb(199, 199, 199) 1px solid;
+    transition: all 0.25s ease 0s;
+  }
+  
+  .skills-card:hover {
+    border: rgb(255, 255, 255) 1px solid;
+    filter: drop-shadow(0 0 0.7em #ffe600aa);
+  }
+
+  .skills-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .language-list{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+  }
+
+  .language-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    margin: 10px 20px 20px 20px;
+    padding: 20px;
+  }
+
+  @media screen and (max-width: 1000px){
+    .profile-card {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .profile-left {
+      width: 40vw;
+      order: 2;
+    }
+  
+    .profile-right {
+      order: 1;
+    }
+  }
