@@ -8,3 +8,7 @@
   list-style: none;
   overflow-x: hidden;
 }
+
+*::-webkit-scrollbar {
+  display: none;
+}
