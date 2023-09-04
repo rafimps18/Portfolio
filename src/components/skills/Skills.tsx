@@ -24,14 +24,17 @@ const MySkills = () => {
                                 </div>
                                 <div className="language-list-item">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
-
                                     <h3>PHP</h3>
                                 </div>
                                 <div className="language-list-item">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-
                                     <h3>Python</h3>
-                                </div></div>
+                                </div>
+                                <div className="language-list-item">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
+                                    <h3>MySQL</h3>
+                                </div>
+                            </div>
                         </div>
                         <h2>Frameworks and Libraries</h2>
                         <div className="language-list">
